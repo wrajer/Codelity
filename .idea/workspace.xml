@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa4b7493-b664-46b9-a3ab-fe5fe385b2ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionFromRiverOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionPermCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionMaxCounters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -58,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionFromRiverOne.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -66,6 +65,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionMaxCounters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -136,13 +144,15 @@
         <option value="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionTapeEquilibrium.java" />
         <option value="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionPermCheck.java" />
         <option value="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionFromRiverOne.java" />
+        <option value="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionMaxCounters.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="48" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="90" />
+    <option name="y" value="-8" />
     <option name="width" value="1377" />
-    <option name="height" value="778" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -250,12 +260,12 @@
       <workItem from="1553970714391" duration="597000" />
       <workItem from="1554062230252" duration="4891000" />
       <workItem from="1554070808166" duration="18000" />
-      <workItem from="1554150243561" duration="1864000" />
+      <workItem from="1554150243561" duration="4512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32386000" />
+    <option name="totallyTimeSpent" value="35034000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -445,6 +455,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionMaxCounters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
