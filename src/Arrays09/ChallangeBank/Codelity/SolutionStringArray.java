@@ -10,7 +10,6 @@ public class SolutionStringArray {
         if (K != 0) {
             long startTime=System.nanoTime();
 
-
             StringBuilder sb = new StringBuilder(S);
            List<Character> setStart = new ArrayList<>() ;
            List<Character> setEnd = new ArrayList<>();
@@ -65,7 +64,8 @@ public class SolutionStringArray {
             // from the end
         }
 
-        return -1;
+        //when K=0 ten ned to delet all
+        return S.length();
     }
 
 }

@@ -34,27 +34,33 @@ public class Main {
         System.out.println(sol4.solution(tab1, 3));
         System.out.println(Arrays.asList(sol4.solution(tab2, 1)));*/
 
-        SolutionBinnaryGap solutionBinnaryGap = new SolutionBinnaryGap();
-        int [] tab1 = {9,3,9,3,9,7,9};
-
-        System.out.println(solutionBinnaryGap.solution(tab1));
+//        SolutionBinnaryGap solutionBinnaryGap = new SolutionBinnaryGap();
+//        int [] tab1 = {9,3,9,3,9,7,9};
+//
+//        System.out.println(solutionBinnaryGap.solution(tab1));
 
 
         SolutionString solutionString = new SolutionString();
         SolutionStringLineList solutionStringLineList = new SolutionStringLineList();
         SolutionStringArray solutionStringArray = new SolutionStringArray();
 
-        /*
-        SolutionString solutionString = new SolutionString();/*
+
+
         System.out.println(solutionString.solution("abaacbcab", 2));
         System.out.println(solutionString.solution("aabcabc", 1));
-        System.out.println(solutionString.solution("zaaaa", 0));
-        System.out.println(solutionString.solution("aaaa", 0));*/
+        System.out.println(solutionString.solution("zaaaazz", 1));
+        System.out.println(solutionString.solution("aaaa", 0));
+        System.out.println(solutionString.solution("aaaa", 2));
+        System.out.println(solutionString.solution("aaaa", 1));
+
    /*     System.out.println(solutionString.solution("abccasdfasdfadfadfadsfassgdfsgdfsgsfgsdfgdsfgdsfgdfadfasdfadfadsfsadfsadfasdfasdfasdfsadfadsfadsfadfadsfasdfadfadsfadsfafdfadsfadsfadsfadsfadfadf", 1));
         System.out.println("Wynik z linked List");
         System.out.println(solutionStringLineList.solution("abccasdfasdfadfadfadsfassgdfsgdfsgsfgsdfgdsfgdsfgdfadfasdfadfadsfsadfsadfasdfasdfasdfsadfadsfadsfadfadsfasdfadfadsfadsfafdfadsfadsfadsfadsfadfadf", 1));
-*/        System.out.println("Wynik z Array List");
-        System.out.println(solutionStringArray.solution("abababeabbaeg", 2));
+*/ /*     System.out.println("Wynik z Array List");
+        System.out.println(solutionStringArray.solution("abababeabbaegababab", 2));
+        System.out.println(solutionStringArray.solution("aaaaa", 2));
+        System.out.println(solutionStringArray.solution("aaaaa", 0));
+        System.out.println(solutionStringArray.solution("aaaaa", 1));*/
 
     }
 

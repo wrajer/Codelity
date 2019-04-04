@@ -7,22 +7,21 @@ public class SolutionString {
 
     public int solution(String S, int K) {
         if (K != 0) {
-            long startTime=System.nanoTime();
-
 
             StringBuilder sb = new StringBuilder(S);
             Set<Character> setStart = new HashSet<>();
             Set<Character> setEnd = new HashSet<>();
+
             int counterStart = 0;
             int counterStart2 = 0;
 
             int counterEnd = 0;
             int counterEnd2 = 0;
 
-            for (int i = 0; i < sb.length(); i++) {
+            for (int i = 0; i < S.length(); i++) {
 
-                if (setStart.size() < K || setStart.contains(sb.charAt(i))) {
-                    setStart.add(sb.charAt(i));
+                if (setStart.size() < K || setStart.contains(S.charAt(i))) {
+                    setStart.add(S.charAt(i));
                     counterStart2++;
                 } else {
 
@@ -34,6 +33,9 @@ public class SolutionString {
                 }
             }
 
+            if (K>setStart.size()) {
+                return -1;
+            }
 
             //fromthe end
             sb.reverse();
@@ -52,18 +54,14 @@ public class SolutionString {
                 }
             }
 
-            System.out.println(System.nanoTime()-startTime);
+            //taking the smallest one
 
-//taking the smallest one
-            if (counterStart != 0 || counterEnd != 0) {
-                return counterStart < counterEnd ? counterStart : counterEnd;
-
-            }
+            return counterStart < counterEnd ? counterStart : counterEnd;
 
             // from the end
         }
 
-        return -1;
+        return S.length();
     }
 
 }
