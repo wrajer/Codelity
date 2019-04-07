@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa4b7493-b664-46b9-a3ab-fe5fe385b2ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionStringArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionStringArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionGenomicRangeQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,14 +18,14 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.43288592">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Arrays09/ChallangeBank/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="183">
-                  <caret line="50" column="57" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="57" />
+                <state relative-caret-position="480">
+                  <caret line="69" column="60" lean-forward="true" selection-start-line="69" selection-start-column="60" selection-end-line="69" selection-end-column="60" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -35,8 +36,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionStringArray.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-357">
-                  <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+                <state relative-caret-position="425">
+                  <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -47,7 +48,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionString.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="125">
+                <state relative-caret-position="357">
                   <caret line="22" selection-start-line="22" selection-end-line="22" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -59,15 +60,24 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionString.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="62" column="73" selection-start-line="62" selection-start-column="73" selection-end-line="62" selection-end-column="73" />
+                <state relative-caret-position="484">
+                  <caret line="62" selection-start-line="62" selection-end-line="62" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionGenomicRangeQuery.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -108,15 +118,16 @@
         <option value="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionMissingInteger.java" />
         <option value="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionPassingCars.java" />
         <option value="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionStringArray.java" />
-        <option value="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Main.java" />
         <option value="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionString.java" />
+        <option value="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Main.java" />
+        <option value="$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionGenomicRangeQuery.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="492" />
-    <option name="y" value="138" />
-    <option name="width" value="1377" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="491" />
+    <option name="y" value="137" />
+    <option name="width" value="1378" />
     <option name="height" value="775" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -125,29 +136,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="MasterClass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MasterClassUdemy" type="462c0819:PsiDirectoryNode" />
+              <item name="Codelity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MasterClass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MasterClassUdemy" type="462c0819:PsiDirectoryNode" />
+              <item name="Codelity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MasterClass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MasterClassUdemy" type="462c0819:PsiDirectoryNode" />
+              <item name="Codelity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ChallangeBank" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MasterClass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MasterClassUdemy" type="462c0819:PsiDirectoryNode" />
+              <item name="Codelity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ChallangeBank" type="462c0819:PsiDirectoryNode" />
               <item name="Codelity" type="462c0819:PsiDirectoryNode" />
@@ -156,6 +165,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,6 +176,9 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554069813078" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -229,11 +243,12 @@
       <workItem from="1554369069269" duration="2174000" />
       <workItem from="1554391070771" duration="112000" />
       <workItem from="1554404124074" duration="3790000" />
+      <workItem from="1554646773636" duration="2949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42155000" />
+    <option name="totallyTimeSpent" value="45104000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -245,10 +260,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.28366113" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28322148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -257,8 +272,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25345623" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35076922" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2533512" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34986594" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32872504" />
@@ -428,18 +443,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionStringArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays09/ChallangeBank/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="50" column="57" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="57" />
+        <state relative-caret-position="425">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -448,20 +453,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="62" column="73" selection-start-line="62" selection-start-column="73" selection-end-line="62" selection-end-column="73" />
+        <state relative-caret-position="484">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays09/ChallangeBank/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="69" column="60" lean-forward="true" selection-start-line="69" selection-start-column="60" selection-end-line="69" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays09/ChallangeBank/Codelity/SolutionGenomicRangeQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8.0_201</last-edited>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

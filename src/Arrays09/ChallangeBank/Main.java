@@ -40,18 +40,18 @@ public class Main {
 //        System.out.println(solutionBinnaryGap.solution(tab1));
 
 
-        SolutionString solutionString = new SolutionString();
-        SolutionStringLineList solutionStringLineList = new SolutionStringLineList();
-        SolutionStringArray solutionStringArray = new SolutionStringArray();
-
-
-
-        System.out.println(solutionString.solution("abaacbcab", 2));
-        System.out.println(solutionString.solution("aabcabc", 1));
-        System.out.println(solutionString.solution("zaaaazz", 1));
-        System.out.println(solutionString.solution("aaaa", 0));
-        System.out.println(solutionString.solution("aaaa", 2));
-        System.out.println(solutionString.solution("aaaa", 1));
+//        SolutionString solutionString = new SolutionString();
+//        SolutionStringLineList solutionStringLineList = new SolutionStringLineList();
+//        SolutionStringArray solutionStringArray = new SolutionStringArray();
+//
+//
+//
+//        System.out.println(solutionString.solution("abaacbcab", 2));
+//        System.out.println(solutionString.solution("aabcabc", 1));
+//        System.out.println(solutionString.solution("zaaaazz", 1));
+//        System.out.println(solutionString.solution("aaaa", 0));
+//        System.out.println(solutionString.solution("aaaa", 2));
+//        System.out.println(solutionString.solution("aaaa", 1));
 
    /*     System.out.println(solutionString.solution("abccasdfasdfadfadfadsfassgdfsgdfsgsfgsdfgdsfgdsfgdfadfasdfadfadsfsadfsadfasdfasdfasdfsadfadsfadsfadfadsfasdfadfadsfadsfafdfadsfadsfadsfadsfadfadf", 1));
         System.out.println("Wynik z linked List");
@@ -61,6 +61,13 @@ public class Main {
         System.out.println(solutionStringArray.solution("aaaaa", 2));
         System.out.println(solutionStringArray.solution("aaaaa", 0));
         System.out.println(solutionStringArray.solution("aaaaa", 1));*/
+
+        SolutionGenomicRangeQuery solutionGenomicRangeQuery = new SolutionGenomicRangeQuery();
+
+        int[] P = {2,5,0};
+        int[] Q = {4,5,6};
+
+        solutionGenomicRangeQuery.solution("CAGCCTA", P, Q);
 
     }
 
