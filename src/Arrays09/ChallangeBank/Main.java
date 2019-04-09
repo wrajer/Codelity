@@ -62,12 +62,25 @@ public class Main {
         System.out.println(solutionStringArray.solution("aaaaa", 0));
         System.out.println(solutionStringArray.solution("aaaaa", 1));*/
 
-        SolutionGenomicRangeQuery solutionGenomicRangeQuery = new SolutionGenomicRangeQuery();
+       /* SolutionGenomicRangeQuery solutionGenomicRangeQuery = new SolutionGenomicRangeQuery();
 
         int[] P = {2,5,0};
         int[] Q = {4,5,6};
 
-        solutionGenomicRangeQuery.solution("CAGCCTA", P, Q);
+        solutionGenomicRangeQuery.solution("CAGCCTA", P, Q);*/
+
+       SolutionSumToZero solution  = new SolutionSumToZero();
+
+        for (int i = 1; i <=20; i++) {
+
+
+       for (int x : solution.solution(i)) {
+           System.out.print(x + " ");
+
+       }
+            System.out.println();
+        }
+
 
     }
 
