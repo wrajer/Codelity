@@ -4,6 +4,8 @@ package Arrays09.ChallangeBank;
 import Arrays09.ChallangeBank.Codelity.*;
 
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
@@ -80,6 +82,9 @@ public class Main {
        }
             System.out.println();
         }
+
+        Set<Integer> set = new HashSet<Integer>();
+        set.add(1);
 
 
     }
